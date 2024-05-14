@@ -1,0 +1,22 @@
+{
+  "$schema": "https://flagd.dev/schema/v0/flags.json",
+  "flags": {
+    "hello_variants_world": {
+      "state": "ENABLED",
+      "defaultVariant": "blue",
+      "variants": {
+        "red": "red",
+        "blue": "blue",
+        "green": "green"
+      },
+      "targeting": {
+        "fractional": [
+          { "var": "email" },
+          [ "red", 50 ],
+          [ "green", 30 ],
+          [ "blue", 20 ]
+        ]
+      }
+    }
+  }
+}

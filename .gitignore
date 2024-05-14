@@ -1,0 +1,4 @@
+bin
+result
+.direnv
+flags.*
